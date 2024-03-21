@@ -1,0 +1,22 @@
+.mybutton {
+  display: inline-block;
+  color: $text-color;
+  background-color: $primary-color;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: $text-color;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+  }
+}
+
+.line {
+  margin: 0 auto;
+  width: 170px;
+  height: 4px;
+  background-color: $primary-color;
+  border-radius: 5px;
+}

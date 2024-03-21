@@ -1,0 +1,191 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.mybutton {
+  display: inline-block;
+  color: whitesmoke;
+  background-color: #fc036b;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: transparent;
+  transition: all 0.3s ease;
+}
+.mybutton:hover {
+  background-color: whitesmoke;
+  color: #fc036b;
+  border: 1px solid #fc036b;
+}
+
+.line {
+  margin: 0 auto;
+  width: 170px;
+  height: 4px;
+  background-color: #fc036b;
+  border-radius: 5px;
+}
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/ımg/header-bg.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-content {
+  color: whitesmoke;
+  text-align: center;
+}
+.header-content h1 {
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-size: 7vmin;
+}
+.header-content h2 {
+  font-size: 4vmin;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: whitesmoke;
+  padding: 20px;
+  align-items: center;
+}
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+}
+
+.events {
+  margin-bottom: 40px;
+}
+.events-title {
+  text-align: center;
+  font-size: 4vmin;
+  margin: 50px 0;
+  color: #484872;
+}
+.events-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+.events-row-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  width: 500px;
+  gap: 15px;
+}
+.events-row-col h4 {
+  color: #484872;
+}
+.events-row-col p {
+  word-wrap: wrap;
+  word-break: break-all;
+  text-align: center;
+  color: #49497e;
+  font-size: 18px;
+}
+.events-row-col img {
+  width: 80%;
+}
+
+.explore {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/ımg/bg2.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.explore-content {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.explore-content p {
+  color: #999999;
+  width: 80%;
+}
+.explore-content h1 {
+  color: whitesmoke;
+  font-size: 7vmin;
+  text-align: center;
+}
+
+.tours {
+  display: flex;
+  justify-content: center; /* Tüm içeriği yatayda ortala */
+  padding: 15px 30px;
+}
+.tours-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  gap: 20px;
+  text-align: center; /* Metni ortala */
+  max-width: 400px; /* Maksimum genişliği belirle */
+  margin-right: 20px; /* Sağa boşluk bırak */
+}
+.tours-right {
+  width: 55%; /* Sağ taraftaki genişliği ayarla */
+  display: flex;
+  flex-direction: column; /* Resimleri sütun şeklinde düzenle */
+  align-items: center; /* Resimleri dikeyde ortala */
+}
+.tours-right-gallery {
+  display: flex;
+  flex-wrap: wrap; /* Resimleri sarmaşık olarak düzenle */
+  gap: 10px; /* Resimler arasında boşluk bırak */
+  max-width: 600px; /* Maksimum genişliği belirle */
+}
+.tours-right-gallery img {
+  width: calc(50% - 5px); /* Resimlerin yarısını al, kenar boşluğu için 5 piksel çıkar */
+  height: auto;
+}
+
+.footer {
+  background-color: #484872;
+  width: 100%;
+  text-align: center;
+  padding: 20px 80px;
+}
+.footer p {
+  color: whitesmoke;
+  margin: 20px auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+  font-family: "poppins", "sans-serif";
+  overflow-x: hidden;
+}
+
+.menu-btn {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+.tours {
+  display: flex;
+  justify-content: center; /* Tüm içeriği yatayda ortala */
+  padding: 15px 30px;
+
+  &-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    gap: 20px;
+    text-align: center; /* Metni ortala */
+    max-width: 400px; /* Maksimum genişliği belirle */
+    margin-right: 20px; /* Sağa boşluk bırak */
+  }
+
+  &-right {
+    width: 55%; /* Sağ taraftaki genişliği ayarla */
+    display: flex;
+    flex-direction: column; /* Resimleri sütun şeklinde düzenle */
+    align-items: center; /* Resimleri dikeyde ortala */
+
+    &-gallery {
+      display: flex;
+      flex-wrap: wrap; /* Resimleri sarmaşık olarak düzenle */
+      gap: 10px; /* Resimler arasında boşluk bırak */
+      max-width: 600px; /* Maksimum genişliği belirle */
+
+      img {
+        width: calc(
+          50% - 5px
+        ); /* Resimlerin yarısını al, kenar boşluğu için 5 piksel çıkar */
+        height: auto;
+      }
+    }
+  }
+}
