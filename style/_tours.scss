@@ -32,6 +32,11 @@
           50% - 5px
         ); /* Resimlerin yarısını al, kenar boşluğu için 5 piksel çıkar */
         height: auto;
+        &:hover {
+          transform: scale(1.1);
+          transition: all 0.3s ease-in-out;
+          cursor: pointer;
+        }
       }
     }
   }
